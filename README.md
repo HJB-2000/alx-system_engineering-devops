@@ -92,7 +92,7 @@ ________________________________________________________________________________
 #0x01. Shell, permissions
 ## Resources
 ### Read or watch:
-* Permissions
+* [Permissions](http://linuxcommand.org/lc3_lts0090.php)
 ### man or help:
 * chmod
 * sudo
