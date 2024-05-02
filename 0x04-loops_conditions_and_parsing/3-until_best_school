@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# displays Best School 10 times.
+
 i=10
 until [ $i -lt 1 ]
 do
