@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env bash
 #im usind until to print "best school" 10 times on the screen
 
 counter=0
