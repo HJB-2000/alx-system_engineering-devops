@@ -7,7 +7,6 @@ pid=$(pgrep "bash ./4-to_infinity_and_beyond" -f)
 # Check if the process is running and then kill it
 if [ -n "$pid" ]
 then
-    kill "$pid"
-    echo "Process terminated"
+    kill -15 "$pid"
 fi
 
