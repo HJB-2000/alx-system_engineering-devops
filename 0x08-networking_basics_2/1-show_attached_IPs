@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Bash script that you can put on any machine to show all the active IPv4 IPs it’s good for execution
+#Show attached IPs
+ifconfig | grep 'inet addr:' | cut -d: -f2 | cut -d" " -f1
